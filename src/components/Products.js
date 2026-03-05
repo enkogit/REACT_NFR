@@ -1,48 +1,99 @@
 import React from 'react';
 
 const Products = () => {
-    return (
-        <>
-            <div className="my-4 py-4" id='products'>
-                <h2 className="my-2 text-center text-3xl text-blue-900 uppercase font-bold">Top Selling Products</h2>
-                <div className='flex justify-center'>
-                    <div className='w-24 border-b-4 border-blue-900 mb-8'></div>
-                </div>
+  return (
+    <>
+      <div className="my-16 py-12 bg-north-bg text-north-text" id="experiences">
+        <h2 className="my-4 text-center text-4xl md:text-5xl font-serif font-bold tracking-wide text-north-glow">
+          Sacred Rituals of Renewal
+        </h2>
+        <div className="flex justify-center">
+          <div className="w-32 border-b-4 border-north-glow/60 mb-10 rounded"></div>
+        </div>
 
-                <div className="px-4" data-aos="fade-down" data-aos-delay="600">
-                    <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
-                        {/* Product 1 */}
-                        <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
-                            <img src="/images/gabion-size-6.jpg" alt="Gabion Basket 100cm x 30cm x 50cm" className="w-full" />
-                            <h4 className="font-semibold my-4 text-lg md:text-xl text-center">100cm x 30cm x 50cm</h4>
-                            <p className="text-md font-medium">$150</p>
-                        </div>
-
-                        {/* Product 2 */}
-                        <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
-                            <img src="/images/gabion-size-7.jpg" alt="Gabion Basket 100cm x 50cm x 50cm" className="w-full" />
-                            <h4 className="font-semibold my-4 text-lg md:text-xl text-center">100cm x 50cm x 50cm</h4>
-                            <p className="text-md font-medium">$175</p>
-                        </div>
-
-                        {/* Product 3 */}
-                        <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
-                            <img src="/images/gabion-size-8.jpg" alt="Gabion Basket 100cm x 100cm x 50cm" className="w-full" />
-                            <h4 className="font-semibold my-4 text-lg md:text-xl text-center">100cm x 100cm x 50cm</h4>
-                            <p className="text-md font-medium">$220</p>
-                        </div>
-
-                        {/* Product 4 */}
-                        <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
-                            <img src="/images/gabion-size-300.jpg" alt="Gabion Basket 120cm x 90cm x 30cm" className="w-full" />
-                            <h4 className="font-semibold my-4 text-lg md:text-xl text-center">120cm x 90cm x 30cm</h4>
-                            <p className="text-md font-medium">$250</p>
-                        </div>
-                    </div>
-                </div>
+        <div className="px-6 md:px-12 max-w-7xl mx-auto" data-aos="fade-up" data-aos-delay="300">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
+            
+            {/* Sauna */}
+            <div className="bg-north-wood/30 backdrop-blur-sm transition-all ease-in-out duration-500 overflow-hidden hover:scale-105 hover:shadow-2xl hover:shadow-north-glow/20 rounded-2xl p-6 border border-north-wood/40">
+              <img 
+                src="/images/gabion-size-6.jpg" 
+                alt="Cedar sauna glowing warmly in the twilight forest at NORTHFORREST, Alberta" 
+                className="w-full h-48 object-cover rounded-xl mb-5" 
+              />
+              <h4 className="font-serif font-semibold text-xl md:text-2xl text-center text-north-glow mb-3">
+                The Cedar Whisper
+              </h4>
+              <p className="text-base leading-relaxed opacity-90 text-center">
+                Gentle waves of cedar-scented heat rise like a slow sunrise. Let every pore open, every worry dissolve, every cell remember it was born of fire.
+              </p>
             </div>
-        </>
-    )
-}
+
+            {/* Cold Plunge */}
+            <div className="bg-north-wood/30 backdrop-blur-sm transition-all ease-in-out duration-500 overflow-hidden hover:scale-105 hover:shadow-2xl hover:shadow-north-glow/20 rounded-2xl p-6 border border-north-wood/40">
+              <img 
+                src="/images/gabion-size-7.jpg" 
+                alt="Guest emerging renewed from the crystal-clear cold plunge tub surrounded by Alberta wilderness" 
+                className="w-full h-48 object-cover rounded-xl mb-5" 
+              />
+              <h4 className="font-serif font-semibold text-xl md:text-2xl text-center text-north-glow mb-3">
+                The Icy Awakening
+              </h4>
+              <p className="text-base leading-relaxed opacity-90 text-center">
+                A single plunge into living water — sharp, pure, alive. The shock that returns you to your body, the silence that returns you to your soul.
+              </p>
+            </div>
+
+            {/* Forest Bathing */}
+            <div className="bg-north-wood/30 backdrop-blur-sm transition-all ease-in-out duration-500 overflow-hidden hover:scale-105 hover:shadow-2xl hover:shadow-north-glow/20 rounded-2xl p-6 border border-north-wood/40">
+              <img 
+                src="/images/gabion-size-8.jpg" 
+                alt="Person practicing shinrin-yoku forest bathing among ancient pines in Rocky View County" 
+                className="w-full h-48 object-cover rounded-xl mb-5" 
+              />
+              <h4 className="font-serif font-semibold text-xl md:text-2xl text-center text-north-glow mb-3">
+                Shinrin-Yoku
+              </h4>
+              <p className="text-base leading-relaxed opacity-90 text-center">
+                Walk slowly beneath the trees. Let the forest exhale oxygen into your lungs and quiet wisdom into your heart. No path. Only presence.
+              </p>
+            </div>
+
+            {/* Forest Yoga */}
+            <div className="bg-north-wood/30 backdrop-blur-sm transition-all ease-in-out duration-500 overflow-hidden hover:scale-105 hover:shadow-2xl hover:shadow-north-glow/20 rounded-2xl p-6 border border-north-wood/40">
+              <img 
+                src="/images/gabion-size-300.jpg" 
+                alt="Gentle forest yoga flow under a canopy of leaves at NORTHFORREST wellness retreat" 
+                className="w-full h-48 object-cover rounded-xl mb-5" 
+              />
+              <h4 className="font-serif font-semibold text-xl md:text-2xl text-center text-north-glow mb-3">
+                Flow with the Trees
+              </h4>
+              <p className="text-base leading-relaxed opacity-90 text-center">
+                Gentle movement beneath a living cathedral of leaves. Breath syncs with wind. Body becomes part of the breathing forest.
+              </p>
+            </div>
+
+            {/* River Swimming */}
+            <div className="bg-north-wood/30 backdrop-blur-sm transition-all ease-in-out duration-500 overflow-hidden hover:scale-105 hover:shadow-2xl hover:shadow-north-glow/20 rounded-2xl p-6 border border-north-wood/40">
+              <img 
+                src="/images/gabion-size-6.jpg"
+                alt="Person swimming in the clear, cold waters of the river near NORTHFORREST, Alberta" 
+                className="w-full h-48 object-cover rounded-xl mb-5" 
+              />
+              <h4 className="font-serif font-semibold text-xl md:text-2xl text-center text-north-glow mb-3">
+                The River’s Embrace
+              </h4>
+              <p className="text-base leading-relaxed opacity-90 text-center">
+                Surrender to the clear, cold current. Let it carry away what no longer serves and return you lighter, wilder, whole.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
 export default Products;

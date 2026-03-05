@@ -13,14 +13,19 @@ const Hero = () => {
                 <div className="m-auto overflow-hidden mx-4 mt-8 lg:mt-4 p-2 md:p-12 h-5/6" data-aos="zoom-in">
                     <div id="hero" className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
                         <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
-                            <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
-                                High-Quality Gabion Baskets for Your Landscaping Needs
-                            </h1>
-                            <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">
-                                Gabionca offers durable and versatile gabion solutions for erosion control, retaining walls, and aesthetic landscaping.
-                            </div>
-                            <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
-                            </div>
+                            <h1 className="text-7xl md:text-8xl font-serif tracking-tight leading-none">
+                                NORTHFORREST
+                                </h1>
+                                <p className="text-2xl md:text-3xl mt-6 text-north-glow max-w-2xl">
+                                Where the forest whispers, the river sings,<br />
+                                and every breath becomes a prayer.
+                                </p>
+                                <p className="mt-8 text-lg max-w-md">
+                                Rocky View County, Alberta • One guest. One moment. Infinite peace.
+                                </p>
+                                <button className="mt-10 bg-north-glow text-north-bg px-10 py-5 rounded-full text-lg font-medium hover:bg-white transition-all">
+                                Begin Your Journey
+                                </button>
                         </div>
                         <div className="flex lg:justify-end w-full lg:w-1/2" data-aos="fade-up" data-aos-delay="700">
                             {/* Update the src attribute to point to the new image location */}

@@ -28,7 +28,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("Gabionca - Quality Gabion Baskets, Panels, and Fences");
+  useDocTitle("NORTHFORREST - Where the forest whispers, the river sings");
 
   return (
     <>

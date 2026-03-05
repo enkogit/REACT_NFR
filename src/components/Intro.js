@@ -9,13 +9,14 @@ const Intro = () => {
                         <img alt="Gabion baskets" className="rounded-t float-right duration-500 w-full" src="/images/gabion-garden.jpeg" />
                     </div>
                     <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="500">
-                        <h3 className="text-3xl text-blue-900 font-bold">Discover the Durability and Versatility of Our Gabion Baskets, Panels, and Fences</h3>
-                        <div>
-                            <p className='my-3 text-xl text-gray-600 font-semibold'>Our gabion products are engineered for stability and designed to enhance the beauty of your outdoor space.</p>
-                        </div>
-                        <div>
-                            <p className='my-3 text-xl text-gray-600 font-semibold'>Whether you need solutions for erosion control, landscaping, or architectural features, we have the perfect gabion solution for you.</p>
-                        </div>
+                        <h2 className="text-5xl font-serif">A Living Poem of the Wild</h2>
+                        <p className="text-xl leading-relaxed mt-8 max-w-3xl">
+                        Tucked into the rolling countryside of Rocky View County, where the Rocky Mountains breathe against the sky, NORTHFORREST is not a spa. It is a sanctuary. 
+                        Here, with only one cedar sauna and one crystal cold plunge tub, time slows. The forest becomes your therapist, the river your lullaby.
+                        </p>
+                        <p className="text-xl leading-relaxed mt-6 max-w-3xl">
+                        We do not rush. We do not crowd. We simply hold space for you to remember what it feels like to be whole.
+                        </p>
                     </div>
                 </div>
             </div>

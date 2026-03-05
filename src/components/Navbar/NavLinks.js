@@ -1,21 +1,21 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 
-const NavLinks = () => {
-    return (
-        <>
-            <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" smooth to="/#about">
-                About
-            </HashLink>
-            <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" smooth to="/#services">
-                Services
-            </HashLink>
-            <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" to="/#products">
-                Products
-            </HashLink>
+const NavLinks = ({ isMobile = false, onClick }) => {
+  const linkClass = isMobile
+    ? 'hover:text-north-glow transition-colors duration-300 text-2xl py-3'
+    : 'hover:text-north-glow transition-colors duration-300 text-lg';
 
-        </>
-    )
-}
+  return (
+    <>
+      <HashLink smooth to="/#experiences" className={linkClass} onClick={onClick}>
+        Experiences
+      </HashLink>
+      <HashLink smooth to="/#contact" className={linkClass} onClick={onClick}>
+        Contact
+      </HashLink>
+    </>
+  );
+};
 
 export default NavLinks;
