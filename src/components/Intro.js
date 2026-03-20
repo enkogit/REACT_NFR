@@ -6,7 +6,7 @@ const Intro = () => {
             <div className="m-auto overflow-hidden mx-4 mt-8 lg:mt-4 p-2 md:p-12 h-5/6" id='about'>
                 <div className="flex flex-col-reverse lg:flex-row py-8 justify-between lg:text-left" data-aos="fade-up">
                     <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center text-center">
-                        <img alt="Gabion baskets" className="rounded-t float-right duration-500 w-full" src="/images/gabion-garden.jpeg" />
+                        <img alt="Gabion baskets" className="rounded-t float-right duration-500 w-full" src="/images/a-view-of-a-river-surrounded-by-trees.png" />
                     </div>
                     <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="500">
                         <h2 className="text-5xl font-serif">A Living Poem of the Wild</h2>

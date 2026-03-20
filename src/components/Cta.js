@@ -3,7 +3,7 @@ import React from 'react';
 const Cta = () => {
   // Inline style for calming forest background (replace URL with your uploaded image)
   const sectionStyle = {
-    backgroundImage: `url('/images/gabion-fence-wall.jpeg')`, // ← Change this to your serene forest/river image
+    backgroundImage: `url('/images/woman-in-black-tank-top-and-black-shorts-sitting-on-black-asphalt-road-during-daytime.png')`, // ← Change this to your serene forest/river image
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',

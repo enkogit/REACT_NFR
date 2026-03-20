@@ -17,7 +17,7 @@ const Products = () => {
             {/* Sauna */}
             <div className="bg-north-wood/30 backdrop-blur-sm transition-all ease-in-out duration-500 overflow-hidden hover:scale-105 hover:shadow-2xl hover:shadow-north-glow/20 rounded-2xl p-6 border border-north-wood/40">
               <img 
-                src="/images/gabion-size-6.jpg" 
+                src="/images/a-close-up-of-a-stove-with-rocks-in-the-background.png" 
                 alt="Cedar sauna glowing warmly in the twilight forest at NORTHFORREST, Alberta" 
                 className="w-full h-48 object-cover rounded-xl mb-5" 
               />
@@ -32,7 +32,7 @@ const Products = () => {
             {/* Cold Plunge */}
             <div className="bg-north-wood/30 backdrop-blur-sm transition-all ease-in-out duration-500 overflow-hidden hover:scale-105 hover:shadow-2xl hover:shadow-north-glow/20 rounded-2xl p-6 border border-north-wood/40">
               <img 
-                src="/images/gabion-size-7.jpg" 
+                src="/images/woman-in-pink-knit-cap-and-brown-shirt-climbing-on-rock.png" 
                 alt="Guest emerging renewed from the crystal-clear cold plunge tub surrounded by Alberta wilderness" 
                 className="w-full h-48 object-cover rounded-xl mb-5" 
               />
@@ -47,7 +47,7 @@ const Products = () => {
             {/* Forest Bathing */}
             <div className="bg-north-wood/30 backdrop-blur-sm transition-all ease-in-out duration-500 overflow-hidden hover:scale-105 hover:shadow-2xl hover:shadow-north-glow/20 rounded-2xl p-6 border border-north-wood/40">
               <img 
-                src="/images/gabion-size-8.jpg" 
+                src="/images/woman-in-red-jacket-and-blue-denim-jeans-walking-on-forest-during-daytime.png" 
                 alt="Person practicing shinrin-yoku forest bathing among ancient pines in Rocky View County" 
                 className="w-full h-48 object-cover rounded-xl mb-5" 
               />
@@ -62,7 +62,7 @@ const Products = () => {
             {/* Forest Yoga */}
             <div className="bg-north-wood/30 backdrop-blur-sm transition-all ease-in-out duration-500 overflow-hidden hover:scale-105 hover:shadow-2xl hover:shadow-north-glow/20 rounded-2xl p-6 border border-north-wood/40">
               <img 
-                src="/images/gabion-size-300.jpg" 
+                src="/images/woman-in-black-pants-and-pink-shirt-standing-on-green-grass-field-during-daytime.png" 
                 alt="Gentle forest yoga flow under a canopy of leaves at NORTHFORREST wellness retreat" 
                 className="w-full h-48 object-cover rounded-xl mb-5" 
               />
@@ -77,7 +77,7 @@ const Products = () => {
             {/* River Swimming */}
             <div className="bg-north-wood/30 backdrop-blur-sm transition-all ease-in-out duration-500 overflow-hidden hover:scale-105 hover:shadow-2xl hover:shadow-north-glow/20 rounded-2xl p-6 border border-north-wood/40">
               <img 
-                src="/images/gabion-size-6.jpg"
+                src="/images/woman-in-black-bikini-sitting-on-white-sand-during-daytime.png"
                 alt="Person swimming in the clear, cold waters of the river near NORTHFORREST, Alberta" 
                 className="w-full h-48 object-cover rounded-xl mb-5" 
               />

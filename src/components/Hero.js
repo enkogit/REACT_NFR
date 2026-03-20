@@ -29,7 +29,7 @@ const Hero = () => {
                         </div>
                         <div className="flex lg:justify-end w-full lg:w-1/2" data-aos="fade-up" data-aos-delay="700">
                             {/* Update the src attribute to point to the new image location */}
-                            <img alt="Gabion Baskets and Solutions" className="rounded-t float-right duration-1000 w-full" src="/images/gabion-design.jpeg" />
+                            <img alt="Gabion Baskets and Solutions" className="rounded-t float-right duration-1000 w-full" src="/images/SAUNA.png" />
                         </div>
                     </div>
                 </div>

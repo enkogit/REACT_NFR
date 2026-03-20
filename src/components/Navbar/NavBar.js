@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import NavLinks from './NavLinks';           // assuming it's in same folder or adjust path
+// import NavLinks from './NavLinks';           // assuming it's in same folder or adjust path
 import { HashLink } from 'react-router-hash-link';
 
 const NavBar = () => {
@@ -42,11 +42,11 @@ const NavBar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden lg:flex items-center space-x-10">
-          <NavLinks isMobile={false} />
+          {/* <NavLinks isMobile={false} /> */}
         </div>
 
         {/* Mobile Hamburger */}
-        <button
+        {/* <button
           className={`lg:hidden p-3 rounded-full transition-all duration-300 ${
             isOpen ? 'bg-north-glow/20' : 'hover:bg-north-wood/30'
           }`}
@@ -76,7 +76,7 @@ const NavBar = () => {
               />
             )}
           </svg>
-        </button>
+        </button> */}
       </div>
 
       {/* Mobile Menu Dropdown */}
@@ -89,7 +89,7 @@ const NavBar = () => {
         style={{ '--navbar-height': top ? '80px' : '80px' }} // adjust if your py- changes
       >
         <div className="flex flex-col items-center py-12 space-y-10 text-lg font-medium text-north-text">
-          <NavLinks isMobile={true} onClick={() => setIsOpen(false)} />
+          {/* <NavLinks isMobile={true} onClick={() => setIsOpen(false)} /> */}
         </div>
       </div>
     </nav>
